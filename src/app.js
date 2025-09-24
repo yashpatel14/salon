@@ -32,10 +32,10 @@ app.use(
 )
 
 
-// import userRoute from "./routes/user.route.js"
+import userRoute from "./routes/user.routes.js"
 
 
-// app.use("/api/v1/user",userRoute)
+app.use("/api/v1/user",userRoute)
 
 
 export {app}
